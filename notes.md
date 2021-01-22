@@ -3,12 +3,16 @@
 ## master branch 
 
 ## developApp branch
-    * 2021/01/21 4:48pm
+    * 2021/01/21 4:48pm - INITIAL SETUP
         - created boilerplate for index.html
         - created notes.md file for general notes and planning
         - wrote up architecture of app
         - updated README.md file with what app does
     
+    * 2021/01/22 2:45pm - TIMER CLASS with some functionality
+        - created timer class index.html
+        - created duration input and buttons in index.html
+        - added eventlistener to start button
 
 ##   THINGS OUR PROGRAM DOES
     *   Displays a timer --- (T)
