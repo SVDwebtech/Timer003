@@ -14,6 +14,12 @@
         - created duration input and buttons in index.html
         - added eventlistener to start button
 
+    * 2021/01/26 6:23pm - STARTING AND PAUSING the timer
+        - changed start method to arrow function
+        - added pause and tick methods
+        - added setInterval and clearInterval to methods
+        - added eventListener to pause button
+
 ##   THINGS OUR PROGRAM DOES
     *   Displays a timer --- (T)
     *   Shows an animated border around the timer --- (B)
