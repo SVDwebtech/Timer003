@@ -29,6 +29,10 @@
         - set up onStart, onTick and onComplete methods
         - make sure that if class Timer does not receive callbacks it still works
 
+    * 2021/01/28 5:36pm - CREATE TIMER.JS
+        - create timer.js file and copy timer class 
+        - include new script in index.html 
+
 ##   THINGS OUR PROGRAM DOES
     *   Displays a timer --- (T)
     *   Shows an animated border around the timer --- (B)
