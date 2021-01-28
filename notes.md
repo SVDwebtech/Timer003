@@ -19,6 +19,10 @@
         - added pause and tick methods
         - added setInterval and clearInterval to methods
         - added eventListener to pause button
+    
+    * 2021/01/28 3:15pm - DURATION DISPLAY functionality
+        - set up getter and setter to update duration display
+        - stop the timer when it reaches 0
 
 ##   THINGS OUR PROGRAM DOES
     *   Displays a timer --- (T)
