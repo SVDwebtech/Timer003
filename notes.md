@@ -24,6 +24,11 @@
         - set up getter and setter to update duration display
         - stop the timer when it reaches 0
 
+    
+    * 2021/01/28 5:12pm - EXTRACTING TIMER CODE 
+        - set up onStart, onTick and onComplete methods
+        - make sure that if class Timer does not receive callbacks it still works
+
 ##   THINGS OUR PROGRAM DOES
     *   Displays a timer --- (T)
     *   Shows an animated border around the timer --- (B)
