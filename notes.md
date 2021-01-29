@@ -33,6 +33,10 @@
         - create timer.js file and copy timer class 
         - include new script in index.html 
 
+    * 2021/01/29 10:00am - TIMER ANIMATION
+        - create svg element and add attributes
+        - add functionality to onStart, onTick and onComplete iro animation
+
 ##   THINGS OUR PROGRAM DOES
     *   Displays a timer --- (T)
     *   Shows an animated border around the timer --- (B)
