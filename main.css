@@ -1,0 +1,72 @@
+body {
+	background-color: rgb(137, 189, 241);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+#timerAnimationBox {
+	border: rgb(0, 1, 66) 3px solid;
+	background-color: rgb(0, 1, 66);
+	border-radius: 5%;
+	max-width: 500px;
+	padding: 3em 3em;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+#timerControlsBox {
+	background-color: rgb(57, 73, 145);
+	border-radius: 50%;
+	box-shadow: 0px 0px 20px white;
+	box-sizing: border-box;
+	min-width: 350px;
+	min-height: 350px;
+	padding: 1.5em 1.5em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 73px;
+	left: 73px;
+}
+
+#durationDiv {
+	width: 150px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 0.5rem;
+}
+
+#playpauseDiv {
+	width: 150px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#duration {
+	width: 90%;
+	height: 50px;
+	padding-left: 25px;
+	font-size: 40px;
+	background-color: rgb(57, 73, 145);
+	color: white;
+	border: none;
+}
+
+.icon {
+	width: 50px;
+	height: 50px;
+	background-color: rgb(57, 73, 145);
+	color: white;
+}
+
+#pause,
+#start {
+	background-color: rgb(57, 73, 145);
+	outline-style: none;
+	border: none;
+}

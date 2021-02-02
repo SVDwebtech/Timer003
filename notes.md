@@ -3,12 +3,42 @@
 ## master branch 
 
 ## developApp branch
-    * 2021/01/21 4:48pm
+    * 2021/01/21 4:48pm - INITIAL SETUP
         - created boilerplate for index.html
         - created notes.md file for general notes and planning
         - wrote up architecture of app
         - updated README.md file with what app does
     
+    * 2021/01/22 2:45pm - TIMER CLASS with some functionality
+        - created timer class index.html
+        - created duration input and buttons in index.html
+        - added eventlistener to start button
+
+    * 2021/01/26 6:23pm - STARTING AND PAUSING the timer
+        - changed start method to arrow function
+        - added pause and tick methods
+        - added setInterval and clearInterval to methods
+        - added eventListener to pause button
+    
+    * 2021/01/28 3:15pm - DURATION DISPLAY functionality
+        - set up getter and setter to update duration display
+        - stop the timer when it reaches 0
+
+    
+    * 2021/01/28 5:12pm - EXTRACTING TIMER CODE 
+        - set up onStart, onTick and onComplete methods
+        - make sure that if class Timer does not receive callbacks it still works
+
+    * 2021/01/28 5:36pm - CREATE TIMER.JS
+        - create timer.js file and copy timer class 
+        - include new script in index.html 
+
+    * 2021/01/29 10:00am - TIMER ANIMATION
+        - create svg element and add attributes
+        - add functionality to onStart, onTick and onComplete iro animation
+
+    * 20201/01/29 1:02pm - STYLING project
+        - create main.css and add styling       
 
 ##   THINGS OUR PROGRAM DOES
     *   Displays a timer --- (T)
