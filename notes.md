@@ -37,6 +37,9 @@
         - create svg element and add attributes
         - add functionality to onStart, onTick and onComplete iro animation
 
+    * 20201/01/29 1:02pm - STYLING project
+        - create main.css and add styling       
+
 ##   THINGS OUR PROGRAM DOES
     *   Displays a timer --- (T)
     *   Shows an animated border around the timer --- (B)

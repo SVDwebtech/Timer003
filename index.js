@@ -6,7 +6,7 @@ const circle = document.querySelector("circle");
 const radius = circle.getAttribute("r");
 const perimeter = 2 * Math.PI * radius;
 circle.setAttribute("stroke-dasharray", perimeter);
-let currentOffset = 0;
+let duration;
 
 const timer = new Timer(durationInput, startButtton, pauseButton, {
 	onStart(durationInput) {

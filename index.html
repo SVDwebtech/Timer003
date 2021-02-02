@@ -3,24 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/dec787a9fd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
     <title>TimerDocument</title>
 </head>
 <body>
-
-    <svg width="400" height="400">
-        <circle
-            r="190"
-            cx="200"
-            cy="200"
-            fill="transparent"
-            stroke="blue"
-            stroke-width="15"
-            transform="rotate(-90 200 200)"
-        >
-    </svg>
-    <input type="text" name="" id="duration" value="30">
-    <button id="start">Start</button>
-    <button id="pause">Pause</button>
+    <div id="timerAnimationBox">
+        <svg width="400" height="400">
+            <circle
+                r="190"
+                cx="200"
+                cy="200"
+                fill="rgb(0, 1, 66)"
+                stroke="rgb(57, 73, 145)"
+                stroke-width="15"
+                transform="rotate(-90 200 200)"
+            >
+        </svg>
+        <div id="timerControlsBox">
+            <div id="durationDiv">
+                <input type="text" name="" id="duration" value="30">
+            </div>
+            <div id="playpauseDiv">
+                <button id="start"><i class="fas fa-play fa-3x icon"></i></button>
+                <button id="pause"><i class="fas fa-pause fa-3x icon"></i></button>
+            </div>
+        </div>
+    </div>
+    
+    
 
     <script src="timer.js"></script>
     <script src="index.js"></script>
